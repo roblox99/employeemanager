@@ -1,0 +1,20 @@
+###
+GET localhost:8080/employee/all
+
+###
+GET localhost:8080/employee/find/1
+
+###
+POST localhost:8080/employee/add
+Content-Type: application/json
+
+{
+  "name": "Daniel Craig",
+  "email": "daniel@craig.com",
+  "jobTitle": "international spy",
+  "imageURL": "https://bootdey.com/img/Content/avatar/avatar1.png",
+  "phone": "06604925451"
+}
+
+###
+DELETE localhost:8080/employee/delete/1
